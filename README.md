@@ -1,1 +1,1 @@
-# JRaft
+# JRaft is library for the raft protocol
