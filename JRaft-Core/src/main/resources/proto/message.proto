@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "org.pikachu.jraft.model.message";
+option java_generate_equals_and_hash = true;
+
+message RequestVote {
+  string group_id = 1;//组id
+  string service_id = 2;//候选人id
+  string  peer_id = 3;//投票的id
+  int64 termId = 4;//候选人的任期号
+  int64 last_log_term = 5;//候选人最后日志条目的任期号
+  int64 last_log_index = 6;//候选人的最后日志条目的索引值
+}
