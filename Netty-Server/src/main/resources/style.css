@@ -1,0 +1,65 @@
+.root {
+    -fx-font-family: "Microsoft YaHei";
+    -fx-font-size: 14px;
+}
+
+.send-btn {
+    -fx-background-color: #00BFFF;
+    -fx-text-fill: white;
+    -fx-padding: 8px 20px;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+
+.send-btn:hover {
+    -fx-background-color: #009ACD;
+}
+
+.input-field {
+    -fx-padding: 10px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #D3D3D3;
+}
+
+.bubble-self {
+    -fx-background-color: #95EC69;
+    -fx-background-radius: 15px;
+    -fx-padding: 10px 15px;
+    -fx-border-radius: 15px;
+}
+
+.bubble-other {
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-padding: 10px 15px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-radius: 15px;
+}
+
+.system-msg {
+    -fx-text-fill: #666;
+    -fx-alignment: center;
+    -fx-padding: 5px;
+}
+
+/* 允许文本域垂直扩展 */
+.input-field {
+    -fx-pref-height: 40px;
+    -fx-max-height: 100px; /* 最大高度限制 */
+}
+
+/* 滚动条样式 */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: #F5F5F5;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #C1C1C1;
+    -fx-background-radius: 5px;
+}
+

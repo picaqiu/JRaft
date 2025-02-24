@@ -1,4 +1,4 @@
-package org.pikachu.jraft.enums;
+package org.pikaqiu.jraft.enums;
 
 public enum Role {
     FOLLOWER,

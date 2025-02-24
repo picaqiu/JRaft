@@ -1,4 +1,4 @@
-package org.pikachu.jraft;
+package org.pikaqiu.jraft;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

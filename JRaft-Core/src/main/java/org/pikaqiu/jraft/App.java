@@ -1,4 +1,4 @@
-package org.pikachu.jraft;
+package org.pikaqiu.jraft;
 
 /**
  * Hello world!
